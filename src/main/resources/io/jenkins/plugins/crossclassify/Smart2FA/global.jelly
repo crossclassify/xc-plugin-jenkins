@@ -1,0 +1,15 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="${descriptor.displayName}">
+        <f:entry field="siteID" title="${%Site ID}">
+            <f:textbox class="fixed-width"/>
+        </f:entry>
+        <f:entry field="apiKey" title="${%API Key}">
+            <f:textbox type="password" class="fixed-width"/>
+        </f:entry>
+        <f:entry>
+            <span style="font-size: 12px;">Don't have credentials? you can create a new one in </span>
+            <a style="font-size: 12px;" target="_blank" href="https://www.crossclassify.com/">CrossClassify</a>
+        </f:entry>
+    </f:section>
+</j:jelly>

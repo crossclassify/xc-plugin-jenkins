@@ -1,0 +1,8 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="margin-right: 10px" src="https://www.crossclassify.com/images/app-logo.svg" />
+        Secured By
+        <b style="margin-left: 5px"><a target="_blank" href="https://www.crossclassify.com/">CrossClassify</a></b>
+    </div>
+</j:jelly>
